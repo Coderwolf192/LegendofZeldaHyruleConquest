@@ -1,0 +1,79 @@
+<!-- GUI Config file for the game -->
+
+<!-- scene_ID -> MainScene.h Scene_ID enum -->
+
+<gui_config>
+
+  <MainMenu scene_ID = "0">
+    <campaign value="Campaign"/>
+	<options value="Options"/>
+	<credits value="Credits"/>
+	<quit value="Quit"/>
+  </MainMenu>
+
+  <Campaign scene_ID = "1">
+  </Campaign>
+  
+  <Options scene_ID = "2">
+    <OptionsLabel value="Options menu"/>
+	<controls value="Controllers Layout"/>
+	<video value="Video Settings"/>
+	<audio value="Audio Settings"/>
+	<gameplay value="Gameplay Settings"/>
+	<back value="Back"/>
+  </Options>
+  
+  <OptionsAudio scene_ID = "3">
+    <AudioLabel value="Audio menu"/>
+    <MasterVolume value="Master Volume"/>
+    <MusicVolume value="Music Volume"/>
+    <SFXVolume value="SFX Volume"/>
+    <back value="Back"/>
+  </OptionsAudio>
+  
+  <OptionsControls scene_ID = "4">
+    <ControlsLabel value="Controllers Layout"/>
+    <ControllerSensibility value="Controller Sensibility"/>
+	<ControllerLayout value="Normal Layout"/>
+	<MouseSensibility value="Mouse Sensibility"/>
+	<MouseLayout value="Alternative Layout"/>
+	<back value="Back"/>
+  </OptionsControls>
+  
+  <OptionsVideo scene_ID = "5">
+    <VideoLabel value="Video menu"/>
+    <scale value="Scale"/>
+    <fullscreen value="Fullscreen"/>
+    <brightness value="Brightness"/>
+    <vsync value="VSYNC"/>
+    <back value="Back"/>
+  </OptionsVideo>
+  
+  <OptionsGameplay scene_ID = "6">
+    <GameplayLabel value="Gameplay menu"/>
+    <ShowhideHUD value="Toggle HUD visibility"/>
+    <Language value="Language"/>
+    <back value="Back"/>
+  </OptionsGameplay>
+  
+  <!-- 
+  <Credits scene_ID = "7">
+  </Credits>
+   -->
+   
+  <QuitGame scene_ID = "8">
+    <Label value="Are you sure you want to quit?"/>
+	<Yes value="Yes"/>
+	<No value="No"/>
+  </QuitGame>
+  
+  <InGameMenu scene_ID = "9">
+    <IngamemenuLabel value="In-Game menu"/>
+    <resume value="Resume"/>
+    <loadcheckpoint value="Load Last Checkpoint"/>
+    <options value="Options"/>
+    <mainmenu value="Main Menu"/>
+    <quit value="Quit"/>
+  </InGameMenu>
+
+</gui_config>
