@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:49143a55f8b6563e00c6b30a13a22fb6:4244ec1f8fc7d27f4ba4fb9de6b8dd1a:de24c0c7aef6ed7d9a69daaa198e6124$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="sprites/Zelda_Temp_Sprites.png" width="1300" height="676">
+  <sprite n="move_up" x="261" y="457" w="32" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="32" oH="64"/>
+  <sprite n="move_up" x="293" y="457" w="32" h="55" pX="0" pY="0.5" oX="0" oY="9" oW="32" oH="64"/>
+  <sprite n="move_up" x="325" y="457" w="32" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="32" oH="64"/>
+  <sprite n="move_up" x="357" y="457" w="32" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="32" oH="64"/>
+  <sprite n="move_up" x="389" y="457" w="32" h="55" pX="0" pY="0.5" oX="0" oY="9" oW="32" oH="64"/>
+  <sprite n="move_up" x="421" y="457" w="32" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="32" oH="64"/>
+  <sprite n="move_down" x="677" y="400" w="32" h="55" pX="0" pY="0.533333" oX="0" oY="5" oW="32" oH="60"/>
+  <sprite n="move_down" x="709" y="400" w="32" h="57" pX="0.03125" pY="0.533333" oX="0" oY="3" oW="32" oH="60"/>
+  <sprite n="move_down" x="741" y="400" w="32" h="54" pX="0" pY="0.516667" oX="0" oY="3" oW="32" oH="60"/>
+  <sprite n="move_down" x="773" y="400" w="32" h="52" pX="0" pY="0.533333" oX="0" oY="5" oW="32" oH="60"/>
+  <sprite n="move_down" x="805" y="400" w="32" h="57" pX="0" pY="0.533333" oX="0" oY="3" oW="32" oH="60"/>
+  <sprite n="move_down" x="837" y="400" w="32" h="54" pX="0" pY="0.533333" oX="0" oY="3" oW="32" oH="60"/>
+  <sprite n="move_left" x="869" y="400" w="36" h="45" pX="0.104167" pY="0.288889" oX="3" oY="0" oW="48" oH="45"/>
+  <sprite n="move_left" x="905" y="400" w="46" h="44" pX="0.104167" pY="0.355556" oX="1" oY="1" oW="48" oH="45"/>
+  <sprite n="move_left" x="951" y="400" w="45" h="44" pX="0.104167" pY="0.355556" oX="3" oY="1" oW="48" oH="45"/>
+  <sprite n="move_left" x="996" y="400" w="44" h="45" pX="0.104167" pY="0.355556" oX="4" oY="0" oW="48" oH="45"/>
+  <sprite n="move_left" x="1040" y="400" w="36" h="45" pX="0.104167" pY="0.355556" oX="3" oY="0" oW="48" oH="45"/>
+  <sprite n="move_left" x="1076" y="400" w="47" h="44" pX="0.104167" pY="0.355556" oX="0" oY="1" oW="48" oH="45"/>
+  <sprite n="move_left" x="1123" y="400" w="45" h="44" pX="0.104167" pY="0.355556" oX="3" oY="1" oW="48" oH="45"/>
+  <sprite n="move_left" x="1168" y="400" w="44" h="45" pX="0.104167" pY="0.355556" oX="4" oY="0" oW="48" oH="45"/>
+  <sprite n="move_right" x="1212" y="400" w="36" h="45" pX="0.229167" pY="0.355556" oX="9" oY="0" oW="48" oH="45"/>
+  <sprite n="move_right" x="1248" y="400" w="46" h="44" pX="0.229167" pY="0.311111" oX="1" oY="1" oW="48" oH="45"/>
+  <sprite n="move_right" x="0" y="457" w="45" h="44" pX="0.229167" pY="0.377778" oX="0" oY="1" oW="48" oH="45"/>
+  <sprite n="move_right" x="45" y="457" w="44" h="45" pX="0.229167" pY="0.355556" oX="0" oY="0" oW="48" oH="45"/>
+  <sprite n="move_right" x="89" y="457" w="36" h="45" pX="0.229167" pY="0.355556" oX="9" oY="0" oW="48" oH="45"/>
+  <sprite n="move_right" x="125" y="457" w="47" h="44" pX="0.229167" pY="0.355556" oX="1" oY="1" oW="48" oH="45"/>
+  <sprite n="move_right" x="172" y="457" w="45" h="44" pX="0.229167" pY="0.355556" oX="0" oY="1" oW="48" oH="45"/>
+  <sprite n="move_right" x="217" y="457" w="44" h="45" pX="0.229167" pY="0.355556" oX="0" oY="0" oW="48" oH="45"/>
+
+
+  <sprite n="idle_up" x="261" y="457" w="32" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="32" oH="64"/>
+  <sprite n="idle_down" x="677" y="400" w="32" h="55" pX="0" pY="0.533333" oX="0" oY="5" oW="32" oH="60"/>
+  <sprite n="idle_left" x="869" y="400" w="36" h="45" pX="0.104167" pY="0.288889" oX="3" oY="0" oW="48" oH="45"/>
+  <sprite n="idle_right" x="1212" y="400" w="36" h="45" pX="0.229167" pY="0.355556" oX="9" oY="0" oW="48" oH="45"/>
+
+  <sprite n="jump_up" x="362" y="185" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="jump_up" x="396" y="185" w="38" h="57" pX="0.25" pY="0.5" oX="13" oY="7" oW="64" oH="64"/>
+  <sprite n="jump_up" x="434" y="185" w="34" h="49" pX="0.25" pY="0.5" oX="15" oY="15" oW="64" oH="64"/>
+  <sprite n="jump_up" x="468" y="185" w="34" h="37" pX="0.25" pY="0.5" oX="15" oY="27" oW="64" oH="64"/>
+  <sprite n="jump_up" x="502" y="185" w="34" h="39" pX="0.25" pY="0.5" oX="15" oY="25" oW="64" oH="64"/>
+  <sprite n="jump_up" x="536" y="185" w="34" h="39" pX="0.25" pY="0.5" oX="15" oY="25" oW="64" oH="64"/>
+  <sprite n="jump_up" x="570" y="185" w="34" h="45" pX="0.25" pY="0.5" oX="15" oY="19" oW="64" oH="64"/>
+  <sprite n="jump_up" x="604" y="185" w="42" h="57" pX="0.25" pY="0.5" oX="11" oY="7" oW="64" oH="64"/>
+  <sprite n="jump_down" x="722" y="128" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="jump_down" x="756" y="128" w="38" h="57" pX="0.25" pY="0.5" oX="13" oY="7" oW="64" oH="64"/>
+  <sprite n="jump_down" x="794" y="128" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="jump_down" x="828" y="128" w="34" h="37" pX="0.25" pY="0.5" oX="15" oY="27" oW="64" oH="64"/>
+  <sprite n="jump_down" x="862" y="128" w="34" h="37" pX="0.25" pY="0.5" oX="15" oY="27" oW="64" oH="64"/>
+  <sprite n="jump_down" x="896" y="128" w="34" h="39" pX="0.25" pY="0.5" oX="15" oY="25" oW="64" oH="64"/>
+  <sprite n="jump_down" x="930" y="128" w="34" h="47" pX="0.25" pY="0.5" oX="15" oY="17" oW="64" oH="64"/>
+  <sprite n="jump_down" x="964" y="128" w="46" h="55" pX="0.25" pY="0.5" oX="9" oY="9" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1010" y="128" w="44" h="41" pX="0.25" pY="0.5" oX="11" oY="23" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1054" y="128" w="38" h="55" pX="0.25" pY="0.5" oX="11" oY="9" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1092" y="128" w="38" h="47" pX="0.25" pY="0.5" oX="11" oY="17" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1130" y="128" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1172" y="128" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1206" y="128" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="jump_left" x="1248" y="128" w="40" h="41" pX="0.25" pY="0.5" oX="9" oY="23" oW="64" oH="64"/>
+  <sprite n="jump_left" x="0" y="185" w="42" h="55" pX="0.25" pY="0.5" oX="13" oY="9" oW="64" oH="64"/>
+  <sprite n="jump_right" x="42" y="185" w="44" h="41" pX="0.25" pY="0.5" oX="9" oY="23" oW="64" oH="64"/>
+  <sprite n="jump_right" x="86" y="185" w="38" h="55" pX="0.25" pY="0.5" oX="15" oY="9" oW="64" oH="64"/>
+  <sprite n="jump_right" x="124" y="185" w="38" h="47" pX="0.25" pY="0.5" oX="15" oY="17" oW="64" oH="64"/>
+  <sprite n="jump_right" x="162" y="185" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="jump_right" x="204" y="185" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="jump_right" x="238" y="185" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="jump_right" x="280" y="185" w="40" h="41" pX="0.25" pY="0.5" oX="15" oY="23" oW="64" oH="64"/>
+  <sprite n="jump_right" x="320" y="185" w="42" h="55" pX="0.25" pY="0.5" oX="9" oY="9" oW="64" oH="64"/>
+
+  <sprite n="roll_up" x="362" y="185" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="roll_up" x="396" y="185" w="38" h="57" pX="0.25" pY="0.5" oX="13" oY="7" oW="64" oH="64"/>
+  <sprite n="roll_up" x="434" y="185" w="34" h="49" pX="0.25" pY="0.5" oX="15" oY="15" oW="64" oH="64"/>
+  <sprite n="roll_up" x="468" y="185" w="34" h="37" pX="0.25" pY="0.5" oX="15" oY="27" oW="64" oH="64"/>
+  <sprite n="roll_up" x="502" y="185" w="34" h="39" pX="0.25" pY="0.5" oX="15" oY="25" oW="64" oH="64"/>
+  <sprite n="roll_up" x="536" y="185" w="34" h="39" pX="0.25" pY="0.5" oX="15" oY="25" oW="64" oH="64"/>
+  <sprite n="roll_up" x="570" y="185" w="34" h="45" pX="0.25" pY="0.5" oX="15" oY="19" oW="64" oH="64"/>
+  <sprite n="roll_up" x="604" y="185" w="42" h="57" pX="0.25" pY="0.5" oX="11" oY="7" oW="64" oH="64"/>
+  <sprite n="roll_down" x="722" y="128" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="roll_down" x="756" y="128" w="38" h="57" pX="0.25" pY="0.5" oX="13" oY="7" oW="64" oH="64"/>
+  <sprite n="roll_down" x="794" y="128" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="roll_down" x="828" y="128" w="34" h="37" pX="0.25" pY="0.5" oX="15" oY="27" oW="64" oH="64"/>
+  <sprite n="roll_down" x="862" y="128" w="34" h="37" pX="0.25" pY="0.5" oX="15" oY="27" oW="64" oH="64"/>
+  <sprite n="roll_down" x="896" y="128" w="34" h="39" pX="0.25" pY="0.5" oX="15" oY="25" oW="64" oH="64"/>
+  <sprite n="roll_down" x="930" y="128" w="34" h="47" pX="0.25" pY="0.5" oX="15" oY="17" oW="64" oH="64"/>
+  <sprite n="roll_down" x="964" y="128" w="46" h="55" pX="0.25" pY="0.5" oX="9" oY="9" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1010" y="128" w="44" h="41" pX="0.25" pY="0.5" oX="11" oY="23" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1054" y="128" w="38" h="55" pX="0.25" pY="0.5" oX="11" oY="9" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1092" y="128" w="38" h="47" pX="0.25" pY="0.5" oX="11" oY="17" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1130" y="128" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1172" y="128" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1206" y="128" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="roll_left" x="1248" y="128" w="40" h="41" pX="0.25" pY="0.5" oX="9" oY="23" oW="64" oH="64"/>
+  <sprite n="roll_left" x="0" y="185" w="42" h="55" pX="0.25" pY="0.5" oX="13" oY="9" oW="64" oH="64"/>
+  <sprite n="roll_right" x="42" y="185" w="44" h="41" pX="0.25" pY="0.5" oX="9" oY="23" oW="64" oH="64"/>
+  <sprite n="roll_right" x="86" y="185" w="38" h="55" pX="0.25" pY="0.5" oX="15" oY="9" oW="64" oH="64"/>
+  <sprite n="roll_right" x="124" y="185" w="38" h="47" pX="0.25" pY="0.5" oX="15" oY="17" oW="64" oH="64"/>
+  <sprite n="roll_right" x="162" y="185" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="roll_right" x="204" y="185" w="34" h="43" pX="0.25" pY="0.5" oX="15" oY="21" oW="64" oH="64"/>
+  <sprite n="roll_right" x="238" y="185" w="42" h="33" pX="0.25" pY="0.5" oX="11" oY="31" oW="64" oH="64"/>
+  <sprite n="roll_right" x="280" y="185" w="40" h="41" pX="0.25" pY="0.5" oX="15" oY="23" oW="64" oH="64"/>
+  <sprite n="roll_right" x="320" y="185" w="42" h="55" pX="0.25" pY="0.5" oX="9" oY="9" oW="64" oH="64"/>
+
+  <sprite n="lifted_up" x="261" y="457" w="32" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="32" oH="64"/>
+  <sprite n="lifted_down" x="677" y="400" w="32" h="55" pX="0" pY="0.533333" oX="0" oY="5" oW="32" oH="60"/>
+  <sprite n="lifted_left" x="869" y="400" w="36" h="45" pX="0.104167" pY="0.288889" oX="3" oY="0" oW="48" oH="45"/>
+  <sprite n="lifted_right" x="1212" y="400" w="36" h="45" pX="0.229167" pY="0.355556" oX="9" oY="0" oW="48" oH="45"/>
+
+  <sprite n="fall" x="0" y="0" w="45" h="45" pX="0.5" pY="0.5" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="fall" x="45" y="0" w="24" h="24" pX="0.5" pY="0.5" oX="12" oY="12" oW="48" oH="48"/>
+  <sprite n="fall" x="69" y="0" w="16" h="16" pX="0.5" pY="0.5"/>
+  <sprite n="fall" x="85" y="0" w="14" h="14" pX="0.5" pY="0.5" oX="1" oY="1" oW="16" oH="16"/>
+  <sprite n="fall" x="99" y="0" w="9" h="9" pX="0.5" pY="0.5" oX="4" oY="4" oW="16" oH="16"/>
+  <sprite n="fall" x="108" y="0" w="9" h="9" pX="0.5" pY="0.5" oX="4" oY="4" oW="16" oH="16"/>
+  <sprite n="fall" x="117" y="0" w="9" h="9" pX="0.5" pY="0.5" oX="4" oY="4" oW="16" oH="16"/>
+  <sprite n="hurricane" x="126" y="0" w="61" h="64" pX="0.5" pY="0.5" oX="3" oY="0" oW="64" oH="64"/>
+  <sprite n="hurricane" x="187" y="0" w="55" h="69" pX="0.5" pY="0.6" oX="9" oY="11" oW="64" oH="80"/>
+  <sprite n="hurricane" x="242" y="0" w="66" h="58" pX="0.2" pY="0.5" oX="11" oY="6" oW="80" oH="64"/>
+  <sprite n="hurricane" x="308" y="0" w="72" h="56" pX="0.166667" pY="0.5" oX="11" oY="8" oW="96" oH="64"/>
+  <sprite n="hurricane" x="380" y="0" w="62" h="76" pX="0.2" pY="0.333333" oX="11" oY="12" oW="80" oH="96"/>
+  <sprite n="hurricane" x="442" y="0" w="54" h="77" pX="0.25" pY="0.333333" oX="10" oY="14" oW="64" oH="96"/>
+  <sprite n="hurricane" x="496" y="0" w="67" h="64" pX="0.6" pY="0.25" oX="13" oY="0" oW="80" oH="64"/>
+  <sprite n="hurricane" x="563" y="0" w="71" h="61" pX="0.6" pY="0.25" oX="9" oY="0" oW="80" oH="64"/>
+  <sprite n="hurricane" x="634" y="0" w="58" h="60" pX="0.5" pY="0.5" oX="6" oY="4" oW="64" oH="64"/>
+  <sprite n="hurricane" x="692" y="0" w="53" h="68" pX="0.5" pY="0.6" oX="11" oY="12" oW="64" oH="80"/>
+  <sprite n="hurricane" x="745" y="0" w="70" h="54" pX="0.2" pY="0.5" oX="5" oY="10" oW="80" oH="64"/>
+  <sprite n="hurricane" x="815" y="0" w="72" h="59" pX="0.166667" pY="0.5" oX="11" oY="5" oW="96" oH="64"/>
+  <sprite n="hurricane" x="887" y="0" w="60" h="70" pX="0.2" pY="0.4" oX="11" oY="10" oW="80" oH="80"/>
+  <sprite n="hurricane" x="947" y="0" w="54" h="74" pX="0.2" pY="0.333333" oX="13" oY="10" oW="80" oH="96"/>
+  <sprite n="hurricane" x="1001" y="0" w="69" h="64" pX="0.4" pY="0.4" oX="6" oY="12" oW="80" oH="80"/>
+  <sprite n="hurricane" x="1070" y="0" w="61" h="64" pX="0.5" pY="0.5" oX="3" oY="0" oW="64" oH="64"/>
+  <sprite n="lifting_down" x="1131" y="0" w="35" h="43" pX="0" pY="0.333333" oX="0" oY="5" oW="48" oH="48"/>
+  <sprite n="lifting_down" x="1166" y="0" w="35" h="43" pX="0" pY="0.333333" oX="0" oY="5" oW="48" oH="48"/>
+  <sprite n="lifting_down" x="1201" y="0" w="35" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="lifting_down" x="1236" y="0" w="37" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="lifting_left" x="0" y="77" w="48" h="43" pX="0.333333" pY="0.333333" oX="0" oY="5" oW="48" oH="48"/>
+  <sprite n="lifting_left" x="48" y="77" w="41" h="43" pX="0.333333" pY="0.333333" oX="7" oY="5" oW="48" oH="48"/>
+  <sprite n="lifting_left" x="89" y="77" w="41" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="lifting_left" x="130" y="77" w="37" h="47" pX="0.333333" pY="0.333333" oX="11" oY="1" oW="48" oH="48"/>
+  <sprite n="lifting_right" x="167" y="77" w="48" h="43" pX="0" pY="0.333333" oX="0" oY="5" oW="48" oH="48"/>
+  <sprite n="lifting_right" x="215" y="77" w="41" h="43" pX="0" pY="0.333333" oX="0" oY="5" oW="48" oH="48"/>
+  <sprite n="lifting_right" x="256" y="77" w="41" h="45" pX="0.333333" pY="0.333333" oX="7" oY="3" oW="48" oH="48"/>
+  <sprite n="lifting_right" x="297" y="77" w="37" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="lifting_up" x="334" y="77" w="37" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="lifting_up" x="371" y="77" w="37" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="lifting_up" x="408" y="77" w="37" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="lifting_up" x="445" y="77" w="37" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="pulling_down" x="482" y="77" w="35" h="47" pX="0" pY="0.5" oX="0" oY="17" oW="48" oH="64"/>
+  <sprite n="pulling_down" x="517" y="77" w="35" h="49" pX="0.0208333" pY="0.5" oX="0" oY="15" oW="48" oH="64"/>
+  <sprite n="pulling_down" x="552" y="77" w="35" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="48" oH="64"/>
+  <sprite n="pulling_down" x="587" y="77" w="35" h="49" pX="0" pY="0.5" oX="0" oY="15" oW="48" oH="64"/>
+  <sprite n="pulling_left" x="622" y="77" w="34" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="pulling_left" x="656" y="77" w="42" h="41" pX="0" pY="0.333333" oX="0" oY="7" oW="48" oH="48"/>
+  <sprite n="pulling_left" x="698" y="77" w="42" h="39" pX="0" pY="0.333333" oX="0" oY="9" oW="48" oH="48"/>
+  <sprite n="pulling_left" x="740" y="77" w="36" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="pulling_right" x="776" y="77" w="35" h="45" pX="0.333333" pY="0.333333" oX="13" oY="3" oW="48" oH="48"/>
+  <sprite n="pulling_right" x="811" y="77" w="41" h="41" pX="0.333333" pY="0.333333" oX="7" oY="7" oW="48" oH="48"/>
+  <sprite n="pulling_right" x="852" y="77" w="41" h="39" pX="0.333333" pY="0.333333" oX="7" oY="9" oW="48" oH="48"/>
+  <sprite n="pulling_right" x="893" y="77" w="34" h="45" pX="0.333333" pY="0.333333" oX="14" oY="3" oW="48" oH="48"/>
+  <sprite n="pulling_up" x="927" y="77" w="37" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="pulling_up" x="964" y="77" w="33" h="41" pX="0" pY="0.333333" oX="0" oY="7" oW="48" oH="48"/>
+  <sprite n="pulling_up" x="997" y="77" w="33" h="41" pX="0" pY="0.333333" oX="0" oY="7" oW="48" oH="48"/>
+  <sprite n="pulling_up" x="1030" y="77" w="33" h="39" pX="0" pY="0.333333" oX="0" oY="9" oW="48" oH="48"/>
+  <sprite n="pushing_down" x="1063" y="77" w="38" h="39" pX="0.25" pY="0.333333" oX="12" oY="9" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="1101" y="77" w="42" h="37" pX="0.25" pY="0.333333" oX="10" oY="11" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="1143" y="77" w="44" h="35" pX="0.25" pY="0.333333" oX="8" oY="13" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="1187" y="77" w="44" h="35" pX="0.25" pY="0.333333" oX="8" oY="13" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="1231" y="77" w="38" h="37" pX="0.25" pY="0.333333" oX="12" oY="11" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="0" y="128" w="42" h="37" pX="0.25" pY="0.333333" oX="10" oY="11" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="42" y="128" w="44" h="35" pX="0.25" pY="0.333333" oX="8" oY="13" oW="64" oH="48"/>
+  <sprite n="pushing_down" x="86" y="128" w="38" h="37" pX="0.25" pY="0.333333" oX="12" oY="11" oW="64" oH="48"/>
+  <sprite n="pushing_left" x="124" y="128" w="36" h="47" pX="0.25" pY="0.333333" oX="14" oY="1" oW="64" oH="48"/>
+  <sprite n="pushing_left" x="160" y="128" w="42" h="45" pX="0.25" pY="0.333333" oX="14" oY="3" oW="64" oH="48"/>
+  <sprite n="pushing_left" x="202" y="128" w="44" h="43" pX="0.25" pY="0.333333" oX="12" oY="5" oW="64" oH="48"/>
+  <sprite n="pushing_left" x="246" y="128" w="40" h="43" pX="0.25" pY="0.333333" oX="14" oY="5" oW="64" oH="48"/>
+  <sprite n="pushing_right" x="286" y="128" w="37" h="47" pX="0.25" pY="0.333333" oX="15" oY="1" oW="64" oH="48"/>
+  <sprite n="pushing_right" x="323" y="128" w="42" h="45" pX="0.25" pY="0.333333" oX="10" oY="3" oW="64" oH="48"/>
+  <sprite n="pushing_right" x="365" y="128" w="44" h="43" pX="0.25" pY="0.333333" oX="10" oY="5" oW="64" oH="48"/>
+  <sprite n="pushing_right" x="409" y="128" w="40" h="43" pX="0.25" pY="0.333333" oX="12" oY="5" oW="64" oH="48"/>
+  <sprite n="pushing_up" x="449" y="128" w="39" h="47" pX="0" pY="0.5" oX="0" oY="17" oW="48" oH="64"/>
+  <sprite n="pushing_up" x="488" y="128" w="39" h="49" pX="0" pY="0.5" oX="0" oY="15" oW="48" oH="64"/>
+  <sprite n="pushing_up" x="527" y="128" w="39" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="48" oH="64"/>
+  <sprite n="pushing_up" x="566" y="128" w="39" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="48" oH="64"/>
+  <sprite n="pushing_up" x="605" y="128" w="39" h="49" pX="0" pY="0.5" oX="0" oY="15" oW="48" oH="64"/>
+  <sprite n="pushing_up" x="644" y="128" w="39" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="48" oH="64"/>
+  <sprite n="pushing_up" x="683" y="128" w="39" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="48" oH="64"/>
+
+  <sprite n="linksmashingdownlink_smashing_down_1" x="646" y="185" w="32" h="48" pX="0" pY="0.333333"/>
+  <sprite n="linksmashingdownlink_smashing_down_2" x="678" y="185" w="32" h="47" pX="-0.03125" pY="0.333333" oX="0" oY="1" oW="32" oH="48"/>
+  <sprite n="linksmashingdownlink_smashing_down_3" x="710" y="185" w="32" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="32" oH="48"/>
+  <sprite n="linksmashingdownlink_smashing_down_4" x="742" y="185" w="32" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="32" oH="48"/>
+  <sprite n="linksmashingdownlink_smashing_down_5" x="774" y="185" w="32" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="32" oH="48"/>
+  <sprite n="linksmashingleftlink_smashing_left_1" x="806" y="185" w="41" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashingleftlink_smashing_left_2" x="847" y="185" w="35" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashingleftlink_smashing_left_3" x="882" y="185" w="41" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linksmashingleftlink_smashing_left_4" x="923" y="185" w="45" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashingrightlink_smashing_right_1" x="968" y="185" w="41" h="47" pX="0.333333" pY="0.333333" oX="7" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashingrightlink_smashing_right_2" x="1009" y="185" w="35" h="47" pX="0.333333" pY="0.333333" oX="13" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashingrightlink_smashing_right_3" x="1044" y="185" w="41" h="45" pX="0.5" pY="0.5" oX="7" oY="3" oW="48" oH="48"/>
+  <sprite n="linksmashingrightlink_smashing_right_4" x="1085" y="185" w="45" h="47" pX="0.333333" pY="0.333333" oX="3" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashinguplink_smashing_up_1" x="1130" y="185" w="37" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="linksmashinguplink_smashing_up_2" x="1167" y="185" w="37" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="linksmashinguplink_smashing_up_3" x="1204" y="185" w="37" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="linksmashinguplink_smashing_up_4" x="1241" y="185" w="37" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="48" oH="48"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_1" x="0" y="242" w="45" h="85" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_2" x="45" y="242" w="45" h="85" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_3" x="90" y="242" w="47" h="83" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_4" x="137" y="242" w="47" h="83" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_5" x="184" y="242" w="45" h="83" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_6" x="229" y="242" w="45" h="83" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_7" x="274" y="242" w="37" h="83" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_8" x="311" y="242" w="37" h="83" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_9" x="348" y="242" w="45" h="85" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingdownlink_sword_charging_down_10" x="393" y="242" w="45" h="85" pX="0" pY="0.148148" oX="0" oY="0" oW="48" oH="108"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_1" x="438" y="242" w="69" h="47" pX="0.6" pY="0.333333" oX="11" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_2" x="507" y="242" w="69" h="47" pX="0.6" pY="0.333333" oX="11" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_3" x="576" y="242" w="71" h="47" pX="0.6" pY="0.333333" oX="9" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_4" x="647" y="242" w="71" h="47" pX="0.6" pY="0.333333" oX="9" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_5" x="718" y="242" w="69" h="47" pX="0.6" pY="0.333333" oX="11" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_6" x="787" y="242" w="69" h="47" pX="0.6" pY="0.333333" oX="11" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_7" x="856" y="242" w="59" h="47" pX="0.6" pY="0.333333" oX="21" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_8" x="915" y="242" w="59" h="47" pX="0.6" pY="0.333333" oX="21" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_9" x="974" y="242" w="69" h="47" pX="0.6" pY="0.333333" oX="11" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingleftlink_sword_charging_left_10" x="1043" y="242" w="69" h="47" pX="0.6" pY="0.333333" oX="11" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_1" x="1112" y="242" w="69" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_2" x="1181" y="242" w="69" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_3" x="0" y="327" w="71" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_4" x="71" y="327" w="71" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_5" x="142" y="327" w="69" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_6" x="211" y="327" w="69" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_7" x="280" y="327" w="59" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_8" x="339" y="327" w="59" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_9" x="398" y="327" w="69" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordchargingrightlink_sword_charging_right_10" x="467" y="327" w="69" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="80" oH="48"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_1" x="536" y="327" w="45" h="59" pX="0.333333" pY="0.6" oX="3" oY="21" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_2" x="581" y="327" w="45" h="59" pX="0.333333" pY="0.6" oX="3" oY="21" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_3" x="626" y="327" w="45" h="71" pX="0.333333" pY="0.6" oX="3" oY="9" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_4" x="671" y="327" w="45" h="71" pX="0.333333" pY="0.6" oX="3" oY="9" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_5" x="716" y="327" w="45" h="73" pX="0.333333" pY="0.6" oX="3" oY="7" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_6" x="761" y="327" w="45" h="73" pX="0.333333" pY="0.6" oX="3" oY="7" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_7" x="806" y="327" w="47" h="71" pX="0.333333" pY="0.6" oX="1" oY="9" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_8" x="853" y="327" w="47" h="71" pX="0.333333" pY="0.6" oX="1" oY="9" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_9" x="900" y="327" w="45" h="59" pX="0.333333" pY="0.6" oX="3" oY="21" oW="48" oH="80"/>
+  <sprite n="linkswordcharginguplink_sword_charging_up_10" x="945" y="327" w="45" h="59" pX="0.333333" pY="0.6" oX="3" oY="21" oW="48" oH="80"/>
+  <sprite n="linkthrowingdownlink_sword_carrying_down_1" x="990" y="327" w="37" h="53" pX="0.333333" pY="0.5" oX="11" oY="11" oW="48" oH="64"/>
+  <sprite n="linkthrowingdownlink_sword_carrying_down_2" x="1027" y="327" w="37" h="57" pX="0.333333" pY="0.5" oX="11" oY="7" oW="48" oH="64"/>
+  <sprite n="linkthrowingdownlink_sword_carrying_down_3" x="1064" y="327" w="37" h="51" pX="0.333333" pY="0.5" oX="11" oY="13" oW="48" oH="64"/>
+  <sprite n="linkthrowingdownlink_sword_carrying_down_4" x="1101" y="327" w="37" h="53" pX="0.333333" pY="0.5" oX="11" oY="11" oW="48" oH="64"/>
+  <sprite n="linkthrowingdownlink_sword_carrying_down_5" x="1138" y="327" w="37" h="57" pX="0.333333" pY="0.5" oX="11" oY="7" oW="48" oH="64"/>
+  <sprite n="linkthrowingdownlink_sword_carrying_down_6" x="1175" y="327" w="37" h="51" pX="0.333333" pY="0.5" oX="11" oY="13" oW="48" oH="64"/>
+  <sprite n="linkthrowingleftlink_carrying_left_1" x="1212" y="327" w="37" h="48" pX="0.25" pY="0.333333" oX="12" oY="0" oW="64" oH="48"/>
+  <sprite n="linkthrowingleftlink_carrying_left_2" x="1249" y="327" w="46" h="47" pX="0.25" pY="0.333333" oX="12" oY="1" oW="64" oH="48"/>
+  <sprite n="linkthrowingleftlink_carrying_left_3" x="0" y="400" w="46" h="47" pX="0.25" pY="0.333333" oX="10" oY="1" oW="64" oH="48"/>
+  <sprite n="linkthrowingleftlink_carrying_left_4" x="46" y="400" w="48" h="48" pX="0.25" pY="0.333333" oX="8" oY="0" oW="64" oH="48"/>
+  <sprite n="linkthrowingleftlink_carrying_left_5" x="94" y="400" w="46" h="46" pX="0.25" pY="0.333333" oX="12" oY="2" oW="64" oH="48"/>
+  <sprite n="linkthrowingleftlink_carrying_left_6" x="140" y="400" w="46" h="47" pX="0.25" pY="0.333333" oX="10" oY="1" oW="64" oH="48"/>
+  <sprite n="linkthrowingrightlink_carrying_right_1" x="186" y="400" w="37" h="48" pX="0.25" pY="0.333333" oX="15" oY="0" oW="64" oH="48"/>
+  <sprite n="linkthrowingrightlink_carrying_right_2" x="223" y="400" w="46" h="47" pX="0.25" pY="0.333333" oX="8" oY="1" oW="64" oH="48"/>
+  <sprite n="linkthrowingrightlink_carrying_right_3" x="269" y="400" w="46" h="47" pX="0.25" pY="0.333333" oX="10" oY="1" oW="64" oH="48"/>
+  <sprite n="linkthrowingrightlink_carrying_right_4" x="315" y="400" w="48" h="48" pX="0.25" pY="0.333333" oX="10" oY="0" oW="64" oH="48"/>
+  <sprite n="linkthrowingrightlink_carrying_right_5" x="363" y="400" w="46" h="46" pX="0.25" pY="0.333333" oX="8" oY="2" oW="64" oH="48"/>
+  <sprite n="linkthrowingrightlink_carrying_right_6" x="409" y="400" w="46" h="47" pX="0.25" pY="0.333333" oX="10" oY="1" oW="64" oH="48"/>
+  <sprite n="linkthrowinguplink_carrying_up_1" x="455" y="400" w="37" h="49" pX="0" pY="0.5" oX="0" oY="15" oW="48" oH="64"/>
+  <sprite n="linkthrowinguplink_carrying_up_2" x="492" y="400" w="37" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="48" oH="64"/>
+  <sprite n="linkthrowinguplink_carrying_up_3" x="529" y="400" w="37" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="48" oH="64"/>
+  <sprite n="linkthrowinguplink_carrying_up_4" x="566" y="400" w="37" h="49" pX="0" pY="0.5" oX="0" oY="15" oW="48" oH="64"/>
+  <sprite n="linkthrowinguplink_carrying_up_5" x="603" y="400" w="37" h="53" pX="0" pY="0.5" oX="0" oY="11" oW="48" oH="64"/>
+  <sprite n="linkthrowinguplink_carrying_up_6" x="640" y="400" w="37" h="51" pX="0" pY="0.5" oX="0" oY="13" oW="48" oH="64"/>
+
+  <sprite n="linkwalkshieldready/downlink_walk_shield_down_1" x="453" y="457" w="37" h="57" pX="0" pY="0.533333" oX="0" oY="3" oW="48" oH="60"/>
+  <sprite n="linkwalkshieldready/downlink_walk_shield_down_2" x="490" y="457" w="37" h="60" pX="0" pY="0.533333" oX="0" oY="0" oW="48" oH="60"/>
+  <sprite n="linkwalkshieldready/downlink_walk_shield_down_3" x="527" y="457" w="37" h="53" pX="0" pY="0.533333" oX="0" oY="7" oW="48" oH="60"/>
+  <sprite n="linkwalkshieldready/downlink_walk_shield_down_4" x="564" y="457" w="37" h="60" pX="0" pY="0.533333" oX="0" oY="0" oW="48" oH="60"/>
+  <sprite n="linkwalkshieldready/downlink_walk_shield_down_5" x="601" y="457" w="37" h="57" pX="0" pY="0.533333" oX="0" oY="3" oW="48" oH="60"/>
+  <sprite n="linkwalkshieldready/downlink_walk_shield_down_6" x="638" y="457" w="37" h="51" pX="0" pY="0.533333" oX="0" oY="9" oW="48" oH="60"/>
+  <sprite n="linkwalkshieldready/leftlink_walk_shield_left_1" x="675" y="457" w="39" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/leftlink_walk_shield_left_2" x="714" y="457" w="47" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/leftlink_walk_shield_left_3" x="761" y="457" w="48" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/leftlink_walk_shield_left_4" x="809" y="457" w="39" h="47" pX="0" pY="0.333333" oX="0" oY="1" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/leftlink_walk_shield_left_5" x="848" y="457" w="47" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/leftlink_walk_shield_left_6" x="895" y="457" w="48" h="45" pX="0" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/rightlink_walk_shield_right_1" x="943" y="457" w="39" h="47" pX="0.333333" pY="0.333333" oX="9" oY="1" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/rightlink_walk_shield_right_2" x="982" y="457" w="47" h="45" pX="0.333333" pY="0.333333" oX="1" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/rightlink_walk_shield_right_3" x="1029" y="457" w="48" h="45" pX="0.333333" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/rightlink_walk_shield_right_4" x="1077" y="457" w="39" h="47" pX="0.333333" pY="0.333333" oX="9" oY="1" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/rightlink_walk_shield_right_5" x="1116" y="457" w="47" h="45" pX="0.333333" pY="0.333333" oX="1" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/rightlink_walk_shield_right_6" x="1163" y="457" w="48" h="45" pX="0.333333" pY="0.333333" oX="0" oY="3" oW="48" oH="48"/>
+  <sprite n="linkwalkshieldready/uplink_walk_shield_up_1" x="1211" y="457" w="37" h="50" pX="0" pY="0.25" oX="0" oY="1" oW="48" oH="64"/>
+  <sprite n="linkwalkshieldready/uplink_walk_shield_up_2" x="1248" y="457" w="37" h="55" pX="0" pY="0.25" oX="0" oY="0" oW="48" oH="64"/>
+  <sprite n="linkwalkshieldready/uplink_walk_shield_up_3" x="0" y="517" w="37" h="52" pX="0" pY="0.25" oX="0" oY="3" oW="48" oH="64"/>
+  <sprite n="linkwalkshieldready/uplink_walk_shield_up_4" x="37" y="517" w="37" h="50" pX="0" pY="0.25" oX="0" oY="3" oW="48" oH="64"/>
+  <sprite n="linkwalkshieldready/uplink_walk_shield_up_5" x="74" y="517" w="39" h="55" pX="0" pY="0.25" oX="0" oY="0" oW="48" oH="64"/>
+  <sprite n="linkwalkshieldready/uplink_walk_shield_up_6" x="113" y="517" w="37" h="52" pX="0" pY="0.25" oX="0" oY="1" oW="48" oH="64"/>
+  <sprite n="Swordslash/downlink_slashing_down_1" x="150" y="517" w="53" h="48" pX="0.25" pY="0.333333" oX="0" oY="0" oW="64" oH="48"/>
+  <sprite n="Swordslash/downlink_slashing_down_2" x="203" y="517" w="46" h="62" pX="0.25" pY="0.25" oX="7" oY="0" oW="64" oH="64"/>
+  <sprite n="Swordslash/downlink_slashing_down_3" x="249" y="517" w="40" h="78" pX="0.25" pY="0.333333" oX="11" oY="8" oW="64" oH="96"/>
+  <sprite n="Swordslash/downlink_slashing_down_4" x="289" y="517" w="37" h="84" pX="0" pY="0.333333" oX="0" oY="6" oW="48" oH="96"/>
+  <sprite n="Swordslash/downlink_slashing_down_5" x="326" y="517" w="47" h="76" pX="0" pY="0.333333" oX="0" oY="10" oW="48" oH="96"/>
+  <sprite n="Swordslash/downlink_slashing_down_6" x="373" y="517" w="59" h="64" pX="0.015625" pY="0.4" oX="0" oY="10" oW="64" oH="80"/>
+  <sprite n="Swordslash/downlink_slashing_down_7" x="432" y="517" w="64" h="54" pX="0" pY="0.5" oX="0" oY="10" oW="64" oH="64"/>
+  <sprite n="Swordslash/leftlink_slashing_let_1" x="496" y="517" w="39" h="54" pX="0.333333" pY="0.5" oX="9" oY="10" oW="48" oH="64"/>
+  <sprite n="Swordslash/leftlink_slashing_let_2" x="535" y="517" w="53" h="48" pX="0.5" pY="0.3125" oX="11" oY="0" oW="64" oH="48"/>
+  <sprite n="Swordslash/leftlink_slashing_let_3" x="588" y="517" w="68" h="48" pX="0.3875" pY="0.333333" oX="3" oY="0" oW="80" oH="48"/>
+  <sprite n="Swordslash/leftlink_slashing_let_4" x="656" y="517" w="69" h="46" pX="0.4" pY="0.333333" oX="0" oY="2" oW="80" oH="48"/>
+  <sprite n="Swordslash/leftlink_slashing_let_5" x="725" y="517" w="62" h="46" pX="0.4" pY="0.333333" oX="5" oY="2" oW="80" oH="48"/>
+  <sprite n="Swordslash/leftlink_slashing_let_6" x="787" y="517" w="47" h="62" pX="0.333333" pY="0.25" oX="1" oY="2" oW="48" oH="64"/>
+  <sprite n="Swordslash/leftlink_slashing_let_7" x="834" y="517" w="34" h="62" pX="0" pY="0.25" oX="0" oY="2" oW="48" oH="64"/>
+  <sprite n="Swordslash/rightlink_slashing_right_1" x="868" y="517" w="40" h="54" pX="0" pY="0.5" oX="0" oY="10" oW="48" oH="64"/>
+  <sprite n="Swordslash/rightlink_slashing_right_2" x="908" y="517" w="54" h="48" pX="0" pY="0.333333" oX="0" oY="0" oW="64" oH="48"/>
+  <sprite n="Swordslash/rightlink_slashing_right_3" x="962" y="517" w="68" h="48" pX="0.2" pY="0.333333" oX="10" oY="0" oW="80" oH="48"/>
+  <sprite n="Swordslash/rightlink_slashing_right_4" x="1030" y="517" w="68" h="46" pX="0.2" pY="0.333333" oX="12" oY="2" oW="80" oH="48"/>
+  <sprite n="Swordslash/rightlink_slashing_right_5" x="1098" y="517" w="62" h="46" pX="0.2" pY="0.333333" oX="14" oY="2" oW="80" oH="48"/>
+  <sprite n="Swordslash/rightlink_slashing_right_6" x="1160" y="517" w="48" h="62" pX="0" pY="0.25" oX="0" oY="2" oW="48" oH="64"/>
+  <sprite n="Swordslash/rightlink_slashing_right_7" x="1208" y="517" w="36" h="62" pX="0" pY="0.25" oX="0" oY="2" oW="48" oH="64"/>
+  <sprite n="Swordslash/uplink_slashing_up_1" x="1244" y="517" w="52" h="53" pX="0.25" pY="0.5" oX="12" oY="11" oW="64" oH="64"/>
+  <sprite n="Swordslash/uplink_slashing_up_2" x="0" y="601" w="48" h="53" pX="0.25" pY="0.5" oX="12" oY="11" oW="64" oH="64"/>
+  <sprite n="Swordslash/uplink_slashing_up_3" x="48" y="601" w="46" h="67" pX="0.25" pY="0.6" oX="12" oY="13" oW="64" oH="80"/>
+  <sprite n="Swordslash/uplink_slashing_up_4" x="94" y="601" w="38" h="75" pX="0.25" pY="0.6" oX="12" oY="5" oW="64" oH="80"/>
+  <sprite n="Swordslash/uplink_slashing_up_5" x="132" y="601" w="46" h="64" pX="0.25" pY="0.5" oX="4" oY="0" oW="64" oH="64"/>
+  <sprite n="Swordslash/uplink_slashing_up_6" x="178" y="601" w="60" h="53" pX="0.4" pY="0.5" oX="6" oY="11" oW="80" oH="64"/>
+  <sprite n="Swordslash/uplink_slashing_up_7" x="238" y="601" w="66" h="51" pX="0.4" pY="0.5" oX="0" oY="13" oW="80" oH="64"/>
+
+</TextureAtlas>

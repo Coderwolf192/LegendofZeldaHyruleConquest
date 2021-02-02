@@ -1,0 +1,306 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6a6e0da1d35222804d5c36d1f0d82f16:0d4b423fd53a2750d9a53aa69f672792:bc9076f8ff076a45392069299d72423d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="sprites/Link_Sprites.png" width="512" height="670">
+  <sprite name = "walk_up" x="123" y="82" w="18" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_up" x="141" y="82" w="18" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_up" x="159" y="82" w="18" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_up" x="177" y="82" w="18" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_up" x="195" y="82" w="18" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_up" x="213" y="82" w="18" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_down" x="52" y="125" w="18" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_down" x="70" y="125" w="18" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_down" x="88" y="125" w="18" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_down" x="106" y="125" w="18" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_down" x="124" y="125" w="18" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_down" x="142" y="125" w="18" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_left" x="387" y="82" w="26" h="25" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_left" x="413" y="82" w="26" h="25" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_left" x="439" y="82" w="26" h="25" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_left" x="465" y="82" w="26" h="25" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_left" x="0" y="125" w="26" h="25" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_left" x="26" y="125" w="26" h="25" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_right" x="231" y="82" w="26" h="26" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_right" x="257" y="82" w="26" h="26" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_right" x="283" y="82" w="26" h="26" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_right" x="309" y="82" w="26" h="26" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_right" x="335" y="82" w="26" h="26" pX="0.5" pY="0.5"/>
+  <sprite name = "walk_right" x="361" y="82" w="26" h="26" pX="0.5" pY="0.5"/> 
+  
+     <sprite name = "link lifting/up/4.png" x="145" y="445" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/up/3.png" x="166" y="445" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/up/2.png" x="187" y="445" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/up/1.png" x="208" y="445" w="21" h="31" pX="0.5" pY="0.5"/>
+  
+  <sprite name = "link_roll_up" x="50" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="70" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="90" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="110" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="130" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="150" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="170" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_up" x="190" y="354" w="20" h="30" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="96" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="120" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="144" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="168" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="192" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="216" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="240" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_down" x="264" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="402" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="426" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="450" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="474" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="0" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="24" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="48" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_left" x="72" y="387" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="210" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="234" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="258" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="282" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="306" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="330" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="354" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+  <sprite name = "link_roll_right" x="378" y="354" w="24" h="29" pX="0.5" pY="0.5"/>
+
+
+  <sprite name = "link lifting/right/4.png" x="229" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/right/3.png" x="257" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/right/2.png" x="285" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/right/1.png" x="313" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/left/4.png" x="341" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/left/3.png" x="369" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/left/2.png" x="397" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/left/1.png" x="425" y="445" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/down/4.png" x="453" y="445" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/down/3.png" x="478" y="445" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/down/2.png" x="0" y="478" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link lifting/down/1.png" x="25" y="478" w="25" h="33" pX="0.5" pY="0.5"/>
+  
+  
+    <sprite name = "Sword_slash_up" x="0" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_up" x="42" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_up" x="84" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_up" x="126" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_up" x="168" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_up" x="210" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_up" x="252" y="0" w="42" h="39" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="294" y="0" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="331" y="0" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="368" y="0" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="405" y="0" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="442" y="0" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="0" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="37" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_right" x="74" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_left" x="111" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_left" x="148" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_left" x="185" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_left" x="222" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_left" x="259" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_left" x="296" y="39" w="37" h="37" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="333" y="39" w="41" h="43" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="374" y="39" w="41" h="43" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="415" y="39" w="41" h="43" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="456" y="39" w="41" h="43" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="0" y="82" w="41" h="43" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="41" y="82" w="41" h="43" pX="0.5" pY="0.5"/>
+    <sprite name = "Sword_slash_down" x="82" y="82" w="41" h="43" pX="0.5" pY="0.5"/>
+   
+    <sprite name = "walk_sword_up" x="160" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="180" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="200" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="220" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="240" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="260" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="280" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_sword_up" x="300" y="125" w="20" h="32" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_up" x="320" y="125" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_up" x="341" y="125" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_up" x="362" y="125" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_up" x="383" y="125" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_up" x="404" y="125" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_up" x="425" y="125" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_right" x="446" y="125" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_right" x="472" y="125" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_right" x="0" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_right" x="26" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_right" x="52" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_right" x="78" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_left" x="104" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_left" x="130" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_left" x="156" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_left" x="182" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_left" x="208" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_left" x="234" y="157" w="26" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_down" x="260" y="157" w="20" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_down" x="280" y="157" w="20" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_down" x="300" y="157" w="20" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_down" x="320" y="157" w="20" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_down" x="340" y="157" w="20" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "walk_shield_down" x="360" y="157" w="20" h="33" pX="0.5" pY="0.5"/>
+  
+  
+    <sprite name = "link throwing/up/6.png" x="380" y="157" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/up/5.png" x="401" y="157" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/up/4.png" x="422" y="157" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/up/3.png" x="443" y="157" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/up/2.png" x="464" y="157" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/up/1.png" x="485" y="157" w="21" h="31" pX="0.5" pY="0.5"/>
+  
+ 
+  <sprite name = "link throwing/right/3.png" x="0" y="190" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/right/2.png" x="28" y="190" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/right/1.png" x="56" y="190" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/left/3.png" x="84" y="190" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/left/2.png" x="112" y="190" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/left/1.png" x="140" y="190" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/down/6.png" x="168" y="190" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/down/5.png" x="193" y="190" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/down/4.png" x="218" y="190" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/down/3.png" x="243" y="190" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/down/2.png" x="268" y="190" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link throwing/down/1.png" x="293" y="190" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/10.png" x="318" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/9.png" x="343" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/8.png" x="368" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/7.png" x="393" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/6.png" x="418" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/5.png" x="443" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/4.png" x="468" y="190" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/3.png" x="0" y="228" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/2.png" x="25" y="228" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/up/1.png" x="50" y="228" w="25" h="38" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/10.png" x="75" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/9.png" x="112" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/8.png" x="149" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/7.png" x="186" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/6.png" x="223" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/5.png" x="260" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/4.png" x="297" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/3.png" x="334" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/2.png" x="371" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/right/1.png" x="408" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/10.png" x="445" y="228" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/9.png" x="0" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/8.png" x="37" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/7.png" x="74" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/6.png" x="111" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/5.png" x="148" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/4.png" x="185" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/3.png" x="222" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/2.png" x="259" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/left/1.png" x="296" y="266" w="37" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/10.png" x="333" y="266" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/9.png" x="359" y="266" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/8.png" x="385" y="266" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/7.png" x="411" y="266" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/6.png" x="437" y="266" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/5.png" x="463" y="266" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/4.png" x="0" y="310" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/3.png" x="26" y="310" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/2.png" x="52" y="310" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link sword charging/down/1.png" x="78" y="310" w="26" h="44" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/up/5.png" x="104" y="310" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/up/4.png" x="125" y="310" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/up/3.png" x="146" y="310" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/up/2.png" x="167" y="310" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/up/1.png" x="188" y="310" w="21" h="31" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/right/4.png" x="209" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/right/3.png" x="237" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/right/2.png" x="265" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/right/1.png" x="293" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/left/4.png" x="321" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/left/3.png" x="349" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/left/2.png" x="377" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/left/1.png" x="405" y="310" w="28" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/down/5.png" x="433" y="310" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/down/4.png" x="458" y="310" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/down/3.png" x="483" y="310" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/down/2.png" x="0" y="354" w="25" h="33" pX="0.5" pY="0.5"/>
+    <sprite name = "link smashing/down/1.png" x="25" y="354" w="25" h="33" pX="0.5" pY="0.5"/>
+   
+    <sprite name = "link pushing/up/7.png" x="288" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/up/6.png" x="310" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/up/5.png" x="332" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/up/4.png" x="354" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/up/3.png" x="376" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/up/2.png" x="398" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/up/1.png" x="420" y="387" w="22" h="28" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/right/4.png" x="442" y="387" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/right/3.png" x="465" y="387" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/right/2.png" x="488" y="387" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/right/1.png" x="0" y="416" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/left/4.png" x="23" y="416" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/left/3.png" x="46" y="416" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/left/2.png" x="69" y="416" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/left/1.png" x="92" y="416" w="23" h="25" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/8.png" x="115" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/7.png" x="138" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/6.png" x="161" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/5.png" x="184" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/4.png" x="207" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/3.png" x="230" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/2.png" x="253" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pushing/down/1.png" x="276" y="416" w="23" h="21" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/up/4.png" x="299" y="416" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/up/3.png" x="320" y="416" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/up/2.png" x="341" y="416" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/up/1.png" x="362" y="416" w="21" h="29" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/right/4.png" x="383" y="416" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/right/3.png" x="406" y="416" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/right/2.png" x="429" y="416" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/right/1.png" x="452" y="416" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/left/4.png" x="475" y="416" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/left/3.png" x="0" y="445" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/left/2.png" x="23" y="445" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/left/1.png" x="46" y="445" w="23" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/down/4.png" x="69" y="445" w="19" h="27" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/down/3.png" x="88" y="445" w="19" h="27" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/down/2.png" x="107" y="445" w="19" h="27" pX="0.5" pY="0.5"/>
+    <sprite name = "link pulling/down/1.png" x="126" y="445" w="19" h="27" pX="0.5" pY="0.5"/>
+
+    <sprite name = "link hurricane/16.png" x="50" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/15.png" x="101" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/14.png" x="152" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/13.png" x="203" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/12.png" x="254" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/11.png" x="305" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/10.png" x="356" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/9.png" x="407" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/8.png" x="458" y="478" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/7.png" x="0" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/6.png" x="51" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/5.png" x="102" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/4.png" x="153" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/3.png" x="204" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/2.png" x="255" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link hurricane/1.png" x="306" y="528" w="51" h="50" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/7.png" x="357" y="528" w="24" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/6.png" x="381" y="528" w="24" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/5.png" x="405" y="528" w="24" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/4.png" x="429" y="528" w="24" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/3.png" x="453" y="528" w="24" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/2.png" x="477" y="528" w="24" h="24" pX="0.5" pY="0.5"/>
+    <sprite name = "link falling/1.png" x="0" y="578" w="24" h="24" pX="0.5" pY="0.5"/>
+</TextureAtlas>
