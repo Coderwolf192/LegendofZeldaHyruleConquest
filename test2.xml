@@ -1,0 +1,92 @@
+<!-- TEST CUTSCENE -->
+
+<Cutscene name="test2" id="2">
+
+ <!--CUTSCENE ELEMENTS-->
+	<elements>
+		<MAP>
+		</MAP>
+
+		<CHANGESCENES>
+			<changescene n="0" name="house_1" active="false"></changescene>
+		</CHANGESCENES>
+		
+		<NPC>
+			<npc n="0" name="Link" x="681" y="120"  active="true"></npc>
+			<npc n="1" name="Zelda" x="741" y="120"  active="true"></npc>
+		</NPC>
+
+		<IMAGES>
+			<image n="0" name="messenger pixel" x="683" y="240" rectx="116" recty="8" rectw="46" recth="58" active="true" file="cutscenes/cutscene_spritesheet.png"> </image>
+		
+		</IMAGES>
+
+		<TEXTS>
+			<text n="0" name="village" active="false"></text>
+			<text n="0" name="house_1_dialogue" active="false"></text>
+			<text n="0" name="house_2_dialogue" active="false"></text>
+			<text n="0" name="house_3_dialogue" active="false"></text>
+   		</TEXTS>
+
+		<MUSIC>
+		</MUSIC>
+
+		<FX>
+		</FX>
+
+
+	</elements>
+
+ <!--EXECUTE ALL STEPS IN ORDER-->
+
+	<steps>
+		
+		<step  n="0" start="0" duration ="-1" input="false">
+			<element name="Link" action="move" dir="down">
+				<movement dest_x="0" dest_y="10" speed="65"/>
+			</element>
+		</step>
+		<step  n="1" start="0" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="down">
+				<movement dest_x="0" dest_y="80" speed="65"/>
+			</element>
+		</step>
+		
+			<step  n="2" start="-1" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="left">
+				<movement dest_x="-50" dest_y="0" speed="65"/>
+			</element>
+		</step>
+        
+			<step  n="3" start="-1" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="down">
+				<movement dest_x="0" dest_y="110" speed="65"/>
+			</element>
+		</step>
+		
+		<step  n="4" start="-1" duration ="-1" input="false">
+			<element name="village" action="enable">
+			</element>
+		</step>
+		
+		<step  n="5" start="-1" duration ="-1" input="false">
+			<element name="house_1" action="changescene">
+			</element>
+		</step>
+
+		<step  n="6" start="-1" duration ="-1" input="false">
+			<element name="house_1_dialogue" action="enable">
+			</element>
+		</step>
+	
+		<step  n="7" start="-1" duration ="-1" input="false">
+			<element name="house_2_dialogue" action="enable">
+			</element>
+		</step>
+			<step  n="8" start="-1" duration ="-1" input="false">
+			<element name="house_3_dialogue" action="enable">
+			</element>
+		</step>
+	
+	</steps>
+</Cutscene>

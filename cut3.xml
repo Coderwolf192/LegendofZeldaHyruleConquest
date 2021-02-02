@@ -1,0 +1,86 @@
+<!-- TEST CUTSCENE -->
+
+<Cutscene name="cut3" id="3">
+
+ <!--CUTSCENE ELEMENTS-->
+	<elements>
+		<MAP>
+		</MAP>
+ 
+		<CHANGESCENES>
+			<changescene n="0" name="path_to_boss" active="false"></changescene>
+		</CHANGESCENES>
+		
+		<NPC>
+			<npc n="0" name="Link" x="820" y="750"  active="true"></npc>
+			<npc n="1" name="Zelda" x="780" y="750"  active="true"></npc>
+		</NPC>
+
+		<IMAGES>
+			<image n="0" name="messenger pixel" x="794" y="650" rectx="116" recty="8" rectw="46" recth="58" active="true" file="cutscenes/cutscene_spritesheet.png"> </image>
+			<image n="1" name="ogity" x="776" y="526" rectx="0" recty="66" rectw="82" recth="89" active="true" file="cutscenes/cutscene_spritesheet.png"> </image>
+		</IMAGES>
+
+		<TEXTS>
+			<text n="0" name="truth_1_dialogue" active="false"></text>
+			<text n="1" name="truth_2_dialogue" active="false"></text>
+			<text n="2" name="truth_3_dialogue" active="false"></text>
+		
+   		</TEXTS>
+
+		<MUSIC>
+		</MUSIC>
+
+		<FX>
+		</FX>
+
+
+	</elements>
+
+ <!--EXECUTE ALL STEPS IN ORDER-->
+
+	<steps>
+		
+		
+	
+		
+		<step  n="0" start="0" duration ="-1" input="false">
+			<element name="truth_1_dialogue" action="enable">
+			</element>
+		</step>
+		
+		
+			<step  n="1" start="-1" duration ="-1" input="false">
+			<element name="truth_3_dialogue" action="enable">
+			</element>
+		</step>
+		
+		
+		
+		
+		
+		
+	</steps>
+</Cutscene>
+<!--
+		<step  n="5" start="0" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="up">
+				<movement dest_x="0" dest_y="-30" speed="65"/>
+			</element>
+		</step>
+	
+	<step  n="6" start="6" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="left">
+				<movement dest_x="-40" dest_y="0" speed="65"/>
+			</element>
+		</step>
+			<step  n="7" start="0" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="up">
+				<movement dest_x="0" dest_y="-30" speed="65"/>
+			</element>
+		</step>
+		<step  n="7" start="0" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="right">
+				<movement dest_x="1" dest_y="0" speed="65"/>
+			</element>
+		</step>-->

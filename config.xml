@@ -1,0 +1,124 @@
+<!-- Config file for the game -->
+
+<config>
+  <app framerate_cap="">
+    <title>The Legend of Zelda Hyrule Conquest</title>
+    <organization>Summit Games</organization>
+  </app>
+	
+  <renderer>
+    <vsync value="true"/>
+  </renderer>
+
+  <font>
+    <default_font file="fonts/open_sans/OpenSans-Regular.ttf" size="12"/>
+  </font>
+
+  <gui>
+    <atlas file="gui/MenusAtlas.png"/>
+  </gui>
+  
+  <hud>
+    <atlas file="gui/HUDAtlas.png"/>
+  </hud>
+    
+  <dialogue>
+    <king_atlas file="dialogues/king_atlas.png"/>
+	<link_atlas file="dialogues/link_atlas.png"/>
+	<zelda_atlas file="dialogues/zelda_atlas.png"/>
+	<messenger_atlas file="dialogues/anonymous_atlas.png"/>
+	<ogity_atlas file="dialogues/darkOjity_atlas.png"/>
+	<ric_atlas file="dialogues/ric_atlas.png"/>
+  </dialogue>
+	
+  <window>
+    <resolution width="1280" height="720" scale="1"/>
+    <fullscreen value="false"/>
+    <borderless value="false"/>
+    <resizable value="false"/>
+    <fullscreen_window value="false"/>
+  </window>
+
+  <file_system>
+    <path>data.zip</path>
+  </file_system>
+
+  <map>
+    <folder>maps/</folder>
+  </map>
+
+  <input>
+    <controller file="4c05c405000000000000504944564944,Sony DualShock 4,a:b1,b:b2,y:b3,x:b0,start:b9,guide:b12,back:b13,leftstick:b10,rightstick:b11,leftshoulder:b4,rightshoulder:b5,dpup:h0.1,dpleft:h0.8,dpdown:h0.4,dpright:h0.2,leftx:a0,lefty:a1,rightx:a2,righty:a5,lefttrigger:a3,righttrigger:a4,platform:Windows,"/>
+  </input>
+
+  <inputManager>
+  
+ 
+    <!--ATTACK-->
+    <action  button="0" event="0" />
+
+    <!--PICK-->
+    <action  button="1" event="1" />
+    
+    <!--COVER-->
+    <action  button="3" event="2" /> 
+    
+    <!--TUMBLE-->
+    <action  button="10" event="3" />
+    
+    <!--Move UP-->
+    <action  button="11" event="4" />
+
+    <!--Move DOWN-->
+    <action  button="12" event="5" />
+
+    <!--Move LEFT-->
+    <action  button="13" event="6" />
+
+    <!--Move RIGHT-->
+    <action  button="14" event="7" />
+
+    <!--PAUSE-->
+    <action  button="6"  event="8" />
+    
+    
+   <!--ATTACK-->
+    <action2  button="10" event="0" />
+
+    <!--PICK-->
+    <action2  button="2" event="1" />
+    
+    <!--COVER-->
+    <action2  button="3" event="2" /> 
+    
+    <!--TUMBLE-->
+    <action2  button="0" event="3" />
+    
+    <!--Move UP-->
+    <action2  button="11" event="4" />
+
+    <!--Move DOWN-->
+    <action2  button="12" event="5" />
+
+    <!--Move LEFT-->
+    <action2  button="13" event="6" />
+
+    <!--Move RIGHT-->
+    <action2  button="14" event="7" />
+
+    <!--PAUSE-->
+    <action2  button="6"  event="8" />
+
+
+  </inputManager>
+  
+  <cutscenemanager>
+	<cutscene file="cutscenes/test.xml"/>
+	<cutscene file="cutscenes/test2.xml"/>
+	<cutscene file="cutscenes/cut3.xml"/>
+	<cutscene file="cutscenes/cut4.xml"/>
+  <cutscene file="cutscenes/cut5.xml"/>
+</cutscenemanager>
+
+
+</config>

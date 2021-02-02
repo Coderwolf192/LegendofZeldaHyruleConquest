@@ -1,0 +1,67 @@
+<!-- TEST CUTSCENE -->
+
+<Cutscene name="cut4" id="4">
+
+ <!--CUTSCENE ELEMENTS-->
+	<elements>
+		<MAP>
+		</MAP>
+ 
+		<CHANGESCENES>
+		</CHANGESCENES>
+		
+		<NPC>
+			<npc n="0" name="Link" x="1603" y="1733"  active="true"></npc>
+			<npc n="1" name="Zelda" x="1700" y="1733"  active="true"></npc>
+		</NPC>
+
+
+		<TEXTS>
+			
+			<text n="0" name="castle_yard_1_dialogue" active="false"></text>
+			<text n="1" name="castle_yard_3_dialogue" active="false"></text>
+			<text n="2" name="castle_yard_3_dialogue" active="false"></text>
+			<text n="3" name="castle_yard_4_dialogue" active="false"></text>
+			<text n="4" name="castle_yard_5_dialogue" active="false"></text>
+		
+   		</TEXTS>
+
+		<IMAGES>
+			<image n="1" name="ogity" x="1623" y="1570" rectx="0" recty="66" rectw="82" recth="89" active="true" file="cutscenes/cutscene_spritesheet.png"> </image>
+		</IMAGES>
+		
+		<MUSIC>
+		</MUSIC>
+
+		<FX>
+		</FX>
+
+
+	</elements>
+
+ <!--EXECUTE ALL STEPS IN ORDER-->
+
+	<steps>
+		
+		
+		<step  n="0" start="0" duration ="-1" input="false">
+			<element name="Link" action="move" dir="up">
+				<movement dest_x="1" dest_y="0" speed="65"/>
+			</element>
+		</step>
+		
+			
+		<step  n="1" start="-1" duration ="-1" input="false">
+			<element name="Zelda" action="move" dir="up">
+				<movement dest_x="1" dest_y="0" speed="65"/>
+			</element>
+		</step>
+		
+		<step  n="2" start="-1" duration ="-1" input="false">
+			<element name="castle_yard_1_dialogue" action="enable">
+			</element>
+		</step>
+			
+		
+	</steps>
+</Cutscene>
